@@ -1,0 +1,29 @@
+site_name: Documentació i Desplegament de Servidors
+site_description: Documentació i desplegament de servidors
+site_author: Equip B 1er ASIX
+
+theme:
+  name: material
+  language: ca   
+  features:         #Un par de chorradas que he encontrado por ahi que podrian quedar
+  - content.code.copy
+  - navigation.tabs
+  
+  palette:          #Una paleta que he hecho inspirado en https://squidfunk.github.io/mkdocs-material/setup/changing-the-colors/
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+      primary: light blue
+      accent: cyan
+
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+      primary: blue
+      accent: light blue
+
+nav:
+  - Inici: index.md
+  - Configuració: servidors.md
+  - Gestió de rols: usuaris.md
+  - Seguretat: seguretat.md
