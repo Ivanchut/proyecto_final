@@ -15,7 +15,7 @@ sudo nano /etc/ssh/sshd_config
 ### Exemple de configuració de un port alternatiu
 
 ```
-Port 2222
+Port 2223
 ```
 
 ### Reinici del servei
@@ -38,7 +38,7 @@ S'ha configurat un firewall per a permetre únicament els ports necessaris per a
 
 ```
 sudo apt install ufw -y
-sudo ufw allow 2222/tcp
+sudo ufw allow 2223/tcp
 sudo ufw allow 80/tcp
 sudo ufw allow 443/tcp
 sudo ufw enable
