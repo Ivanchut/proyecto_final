@@ -877,7 +877,7 @@
 <pre><code>sudo nano /etc/ssh/sshd_config
 </code></pre>
 <h3 id="exemple-de-configuracio-de-un-port-alternatiu">Exemple de configuració de un port alternatiu</h3>
-<pre><code>Port 2222
+<pre><code>Port 2223
 </code></pre>
 <h3 id="reinici-del-servei">Reinici del servei</h3>
 <pre><code>sudo systemctl restart ssh
@@ -890,7 +890,7 @@
 <h2 id="configuracio-del-tallafocs-amb-ufw">Configuració del tallafocs amb UFW</h2>
 <p>S'ha configurat un firewall per a permetre únicament els ports necessaris per al funcionament del servidor.</p>
 <pre><code>sudo apt install ufw -y
-sudo ufw allow 2222/tcp
+sudo ufw allow 2223/tcp
 sudo ufw allow 80/tcp
 sudo ufw allow 443/tcp
 sudo ufw enable
